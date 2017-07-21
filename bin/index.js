@@ -1,3 +1,3 @@
 #!/usr/bin/env node
-var HugoAlgoliaIndex = require('../');
-new HugoAlgoliaIndex().index();
+var HugoAlgolia = require('../');
+new HugoAlgolia().index();
