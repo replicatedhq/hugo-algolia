@@ -7,7 +7,7 @@ An alternative to the [Docserach](https://community.algolia.com/docsearch/) plug
 Install `hugo-algolia` from [npm](https://npmjs.org)
 
 ```
-npm install huo-algolia
+npm install hugo-algolia
 ```
 
 Or
@@ -38,7 +38,7 @@ scripts: {
 ```
 
 ### Sending to Algolia
-You can send your index to algolia by including your API key, app ID, and index name in your config.yaml--then pass an `-s` flag to your hugo-algolia command.
+You can send your index to Algolia by including your API key, app ID, and index name in your config.yaml--then pass an `-s` flag to your `hugo-algolia` command.
 
 ```
 ---
