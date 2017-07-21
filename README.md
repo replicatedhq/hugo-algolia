@@ -1,5 +1,5 @@
 # hugo-algolia
-## Generate and send indices for Hugo static sites for use with the Algolia search engine
+## Generate and send indices from Hugo static sites for use with Algolia
 An alternative to the [Docserach](https://community.algolia.com/docsearch/) plugin, allowing for manual index exports
 
 ### Installation
