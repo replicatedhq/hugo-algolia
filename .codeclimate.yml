@@ -6,6 +6,4 @@ engines:
     checks:
       max-statements:
         enabled: false
-      complexity:
-        enabled: false
 # ... CONFIG CONTENT ...
