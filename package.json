@@ -21,6 +21,7 @@
     "lodash": "^4.17.4",
     "remove-markdown": "^0.2.0",
     "striptags": "^3.0.1",
-    "to-snake-case": "^1.0.0"
+    "to-snake-case": "^1.0.0",
+    "toml": "^2.3.2"
   }
 }

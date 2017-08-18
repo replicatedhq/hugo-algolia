@@ -1,9 +1,0 @@
-engines:
-  # ... CONFIG CONTENT ...
-  eslint:
-    enabled: true
-    # ... CONFIG CONTENT ...
-    checks:
-      max-statements:
-        enabled: false
-# ... CONFIG CONTENT ...
