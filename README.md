@@ -64,6 +64,9 @@ scripts: {
 }
 ```
 
+### What if I don't want to index a specific file?
+That's cool! Just set the `index` param in your file's front matter to `false` and `hugo-algolia` will skip it during the indexing process.
+
 ### Options
 There are a few flags you can use to customize your indices:
 
@@ -77,7 +80,7 @@ There are a few flags you can use to customize your indices:
 	```
 * `-all` - By default, `hugo-algolia` skips content that doesn't have an `index` param, or whichever param you specify in your command. If you'd like to index those files, use this flag.
 
-##### You can also combine any othe above commands, including the one's mentioned outside of this section:
+##### You can also combine any of the above commands, including the one's mentioned outside of this section:
 ```
 hugo-algolia -m "categories" -p "title, uri, categories" -all 
 ```
