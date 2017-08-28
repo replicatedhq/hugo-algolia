@@ -64,7 +64,7 @@ scripts: {
 }
 ```
 
-**If you don't want to set your write key in your `config.yaml`, you can also use environment variables. Just a variable `ALGOLIA_WRITE_KEY` to the write key for your account the module will use that instead.
+**If you don't want to set your write key in your `config.yaml`, you can also use environment variables. Just a variable `ALGOLIA_WRITE_KEY` to the write key for your account the module will use that instead.**
 
 ### What if I don't want to index a specific file?
 That's cool! Just set the `index` param in your file's front matter to `false` and `hugo-algolia` will skip it during the indexing process.
