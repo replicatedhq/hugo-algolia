@@ -14,6 +14,8 @@
   },
   "dependencies": {
     "algoliasearch": "^3.24.1",
+    "bytes": "^3.0.0",
+    "commander": "^2.11.0",
     "glob": "^7.1.2",
     "gray-matter": "^3.0.2",
     "lodash": "^4.17.4",
