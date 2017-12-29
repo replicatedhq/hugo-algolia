@@ -96,5 +96,9 @@ The `gray-matter` package used in this module does not support TOML front matter
 hugo-algolia -toml
 ```
 
+#### A note about duplicated index entries and objectIDs
+
+Algolia assigns each entry in the index an objectID. It uses this attribute as primary key for an entry. If you want to update an entry, you must send the objectID for the entry you want to update. To prevent duplicated content, this package uses the page's URI as objectID. This way, you can generate the index as many times as you want and Algolia will only index content that has changed. If you want to override an objectID for an entry, you can especify it in the frontmatter.
+
 # License
 This project is based on the lunr plugin from https://github.com/dgrigg/hugo-lunr, but adapted for use with the Algolia search engine. It is under the ISC License. 
