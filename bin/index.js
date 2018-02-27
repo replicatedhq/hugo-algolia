@@ -9,8 +9,9 @@ indexer
   .option("-t, --toml", "Parse with TOML", false)
   .option("-A, --all", `Turn off "other" category`, false)
   .option("-s, --send", "Send to Algolia", false)
-  .option("-m, --multiple-indices [value]", "Multiple cateogries")
+  .option("-m, --multiple-indices [value]", "Multiple categories")
   .option("-p, --custom-index", "Custom index")
+  .option("--config [value]", "Config file", "./config.yaml")
   .option(
     "-c, --content-size [value]",
     "Content size to send to Algolia",

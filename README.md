@@ -82,6 +82,11 @@ There are a few flags you can use to customize your indices:
 	```
 * `-all` - By default, `hugo-algolia` skips content that doesn't have an `index` param, or whichever param you specify in your command. If you'd like to index those files, use this flag.
 
+* `--config` - Pass in a custom config file.
+    ```
+    hugo-algolia --config ./mysweetconfig.yaml
+	```
+
 ##### You can also combine any of the above commands, including the one's mentioned outside of this section:
 ```
 hugo-algolia -m "categories" -p "title, uri, categories" -all 
