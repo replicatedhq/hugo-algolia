@@ -98,7 +98,7 @@ This command would create multiple indices depending on the category of each `.m
 The `gray-matter` package used in this module does not support TOML front matter out of the box. If you're using TOML in your front matter, just use the `toml` flag in your command.
 
 ```
-hugo-algolia -toml
+hugo-algolia --toml
 ```
 
 #### A note about duplicated index entries and objectIDs
