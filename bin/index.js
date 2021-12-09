@@ -7,6 +7,7 @@ indexer
   .option("-i, --input [value]", "Input files", "content/**")
   .option("-o, --output [value]", "Output files", "public/algolia.json")
   .option("-t, --toml", "Parse with TOML", false)
+  .option("--config-toml", "Parse config with TOML", false)
   .option("-A, --all", `Turn off "other" category`, false)
   .option("-s, --send", "Send to Algolia", false)
   .option("-m, --multiple-indices [value]", "Multiple categories")
