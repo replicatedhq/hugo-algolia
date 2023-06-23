@@ -13,7 +13,7 @@
     "test": "bin/index.js"
   },
   "dependencies": {
-    "algoliasearch": "^3.24.1",
+    "algoliasearch": "^4.17.2",
     "bytes": "^3.0.0",
     "commander": "^2.11.0",
     "glob": "^7.1.2",
